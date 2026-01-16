@@ -25,7 +25,7 @@ const Contact = () => {
 
       form.reset();
     } catch (err) {
-      console.error("Email failed", err);
+      console.error("Your message failed to send.", err);
     }
   };
 
@@ -34,18 +34,18 @@ const Contact = () => {
       <h2>Contact</h2>
       <form
         ref={formRef}
-        className="contact-form"
+        className={styles.contactForm}
         onSubmit={sendEmail}
       >
-        <div className="input-container">
+        <div className={styles.inputContainer}>
           <label htmlFor="name">Name</label>
-          <input id="name" name="name" type="text" required />
+          <input name="name" type="text" required />
         </div>
-        <div className="input-container">
+        <div className={styles.inputContainer}>
           <label htmlFor="email">Email</label>
-          <input id="email" name="email" type="email" required />
+          <input name="email" type="email" required />
         </div>
-        <div className="input-container">
+        <div className={styles.inputContainer}>
           <label htmlFor="message">Message</label>
           <textarea
             id="message"
@@ -53,7 +53,9 @@ const Contact = () => {
             rows={5}
             required
           />      </div>
-        <button type="submit" className="contact-submit">Submit</button>
+          <div className={styles.btnContainer}>
+        <button type="submit">Send</button>
+        </div>
       </form>
     </section>
   );
