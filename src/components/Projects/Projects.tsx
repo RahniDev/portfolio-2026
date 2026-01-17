@@ -1,11 +1,10 @@
-import "./Projects.css";
+import styles from "./projects.module.css";
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
+    <section id="projects" className={styles.projects}>
       <h2>Projects</h2>
-      <div className="project-grid">
-        <div className="project-card">
+        <div className={styles.projectCard}>
           <h3>Artist Portfolio</h3>
           <ul>
             <li>Frontend responsive website showcasing the works of an artist.</li>
@@ -15,7 +14,6 @@ const Projects = () => {
           <a href="https://github.com/RahniDev/artist-portfolio">GitHub Repo</a>
           <a href="https://www.sakaridemeis.com">Live Website</a>
         </div>
-      </div>
     </section>
   );
 };
