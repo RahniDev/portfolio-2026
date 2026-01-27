@@ -1,4 +1,4 @@
-import { FaXTwitter, FaLinkedin, FaTelegram } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedin, FaTelegram, FaGithub } from "react-icons/fa6";
 import styles from "./footer.module.css";
 
 const Footer = () => {
@@ -6,6 +6,14 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>© {new Date().getFullYear()} Rahni De-Meis.</p>
       <div className="footer-social">
+          <a
+          href="https://github.com/RahniDev"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Github"
+        >
+          <FaGithub size={20} />
+        </a>
         <a
           href="https://x.com/rahnidev"
           target="_blank"

@@ -15,6 +15,15 @@ ul {
   padding-right: 2rem;
 }
 
+.social {
+  padding-top: .8rem;
+  padding-left: 2rem;
+}
+
+.social a {
+  margin: 0 .4rem;
+}
+
 a {
   color: #fff;
   transition: color 0.3s;
