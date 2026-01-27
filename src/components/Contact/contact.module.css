@@ -6,7 +6,7 @@
 }
 
 form {
-    width: 30%;
+    width: 40%;
 }
 
 .inputContainer {
@@ -27,7 +27,6 @@ textarea {
     background-color: #424242;
     border: none;
     outline: none;
-    border-radius: 6%;
     padding: 10px;
     color: #D4D4D4;
 }
@@ -37,7 +36,6 @@ button {
     margin: 10px 0;
     background-color: #F7F7F7;
     border: none;
-    border-radius: 10%;
 }
 
 .btnContainer {

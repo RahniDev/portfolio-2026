@@ -5,20 +5,18 @@
   padding: 10px 20px;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
   align-items: center;
+  padding-top: .8rem;
+  margin-left: auto;
+  padding-right: 2rem;
 }
 
 a {
-  color: #00d8ff;
+  color: #fff;
   transition: color 0.3s;
 }
 

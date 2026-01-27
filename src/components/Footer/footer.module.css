@@ -1,0 +1,8 @@
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    margin-right: 1rem;
+}

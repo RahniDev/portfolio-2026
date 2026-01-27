@@ -3,7 +3,6 @@ import styles from "./navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <h1>Rahni De-Meis</h1>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
