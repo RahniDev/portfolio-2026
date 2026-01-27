@@ -10,7 +10,7 @@ form {
 }
 
 .inputContainer {
-    margin: 10px;
+    margin: 10px 0;
     display: flex;
     flex-direction: column;
 }
@@ -41,4 +41,10 @@ button {
 .btnContainer {
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    form {
+        width: 90%;
+    }
 }
