@@ -42,13 +42,8 @@
 .heroText {
   justify-content: start;
   margin: 6rem auto;
-}
-
-.yellowBlock {
-  background-color: rgb(255, 255, 0);
-  height: 78vh;
-  width: 200px;
-  margin-top: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 @media only screen and (max-width: 768px) {
@@ -58,9 +53,5 @@
 
   .hero p {
     padding: 0 1rem;
-  }
-
-  .yellowBlock {
-    display: none;
   }
 }
