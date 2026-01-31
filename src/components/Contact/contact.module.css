@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.success {
+    color: #F7F7F7;
+}
+
 form {
     width: 40%;
 }
@@ -38,6 +42,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background: none;
+    border: 1px solid #F7F7F7;
+    color: #F7F7F7;
+}
 .btnContainer {
     display: flex;
     justify-content: flex-end;
