@@ -40,11 +40,11 @@ const Contact = () => {
       >
         <div className={styles.inputContainer}>
           <label htmlFor="name">Name</label>
-          <input name="name" type="text" required />
+          <input name="name" type="text" id="name" required />
         </div>
         <div className={styles.inputContainer}>
           <label htmlFor="email">Email</label>
-          <input name="email" type="email" required />
+          <input name="email" type="email" id="email" required />
         </div>
         <div className={styles.inputContainer}>
           <label htmlFor="message">Message</label>
