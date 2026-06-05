@@ -1,26 +1,22 @@
 .about {
-  padding: 5rem 2rem;
-  text-align: center;
+  padding: 3.5rem 2rem;
+}
+
+.about h2 {
+  padding-bottom: 2rem;
 }
 
 .aboutContent {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 80%;
 }
 
 .about p {
   text-align: left;
   line-height: 1.2;
-  width: 42%;
-  font-size: 20px;
-}
-
-.profileCircle {
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  object-fit: cover;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -33,6 +29,5 @@
   .aboutContent p {
     width: 90%;
     margin-top: 2.4rem;
-    text-align: center;
   }
 }

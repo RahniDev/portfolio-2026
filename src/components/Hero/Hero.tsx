@@ -1,15 +1,22 @@
 import styles from "./hero.module.css";
-import CubeScene from '../Shapes/Shapes.tsx'
+import profileImg from '../../assets/rahni.jpg';
 
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <CubeScene />
+      <div className={styles.heroLeft}>
+         <img
+          src={profileImg}
+          alt="Photo of Rahni"
+          className={styles.profileCircle}
+        />
+      </div>
       <div className={styles.heroText}>
-        <h1>Rahni De-Meis</h1>
+        <h1>Hi, I'm Rahni</h1>
         <h2>Web Developer</h2>
-        <p>I build fast, modern, and scalable full stack web applications.</p>
-        <a href="#projects">View My Projects</a>
+        <a href="../../assets/Rahni-4.pdf" target="_blank">
+          CV
+        </a>
       </div>
     </section>
   );

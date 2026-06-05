@@ -20,7 +20,7 @@ form {
 }
 
 label {
-    color: #D4D4D4;
+    color: #333;
     text-align: left;
     padding: 10px;
     padding-left: 0;
@@ -28,23 +28,23 @@ label {
 
 input,
 textarea {
-    background-color: #424242;
+    background-color: #F7F7F7;
     border: none;
     outline: none;
     padding: 10px;
-    color: #D4D4D4;
+    color: #333;
 }
 
 button {
     padding: 10px 20px;
     margin: 10px 0;
     background-color: #F7F7F7;
-    border: none;
+    color: #333;
+    border: 1px solid #333;
 }
 
 button:hover {
-    background: none;
-    border: 1px solid #F7F7F7;
+    background: #333;
     color: #F7F7F7;
 }
 .btnContainer {

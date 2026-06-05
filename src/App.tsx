@@ -4,6 +4,7 @@ import About from "./components/About/About.tsx";
 import Projects from "./components/Projects/Projects.tsx";
 import Contact from "./components/Contact/Contact.tsx";
 import Footer from "./components/Footer/Footer.tsx";
+import Skills from "./components/Skills/Skills.tsx";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Contact />
       <Footer />

@@ -1,18 +1,15 @@
 .hero {
   display: flex;
-  flex-direction: row;
-  text-align: center;
-  position: relative;
 }
 
 .hero h1 {
-  font-size: 4rem;
-  text-transform: uppercase;
-  font-family: "Hedvig Letters Serif", serif;
+  font-size: 48px;
 }
 
 .hero h2 {
-  font-size: 2.4rem;
+  font-size: 32px;
+  text-align: center;
+  font-weight: normal;
   margin-top: 1rem;
 }
 
@@ -24,11 +21,14 @@
 }
 
 .hero a {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px 50px;
   border: 1px solid #ffffff;
   color: #fff;
+  border-radius: 8px;
   font-weight: bold;
   transition: transform 0.3s, background-color 0.3s;
 }
@@ -40,13 +40,35 @@
 }
 
 .heroText {
-  justify-content: start;
   margin: 6rem auto;
   position: relative;
   z-index: 2;
 }
 
+.heroLeft {
+  width: 50%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.profileCircle {
+  max-width: 310px;
+  height: 330px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero a {
+  background-color: #6fdbff;
+  color: #002f93;
+}
+
 @media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
   .hero h1 {
     font-size: 2.8rem;
   }

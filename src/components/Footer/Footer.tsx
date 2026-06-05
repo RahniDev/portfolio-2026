@@ -1,4 +1,4 @@
-import { FaXTwitter, FaLinkedin, FaTelegram, FaGithub, FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedin, FaTelegram, FaGithub } from "react-icons/fa6";
 import styles from "./footer.module.css";
 
 const Footer = () => {
@@ -21,14 +21,6 @@ const Footer = () => {
           aria-label="X"
         >
           <FaXTwitter size={20} />
-        </a>
-        <a
-          href="https://instagram.com/rahni.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <FaInstagram size={20} />
         </a>
         <a
           href="https://www.linkedin.com/in/rahni-developer"
