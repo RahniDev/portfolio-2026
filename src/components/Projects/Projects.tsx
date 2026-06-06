@@ -1,5 +1,5 @@
 import styles from "./projects.module.css";
-
+import artistPortfolio from "../../assets/artist-portfolio.png";
 const Projects = () => {
   return (
     <section id="projects" className={styles.projects}>
@@ -20,6 +20,7 @@ const Projects = () => {
         </div>
         <div className={styles.projectCard}>
           <h3>Artist Portfolio</h3>
+          <img src={artistPortfolio} width={480} alt="Screenshot of artist portfolio website" className={styles.projectImage} />
           <ul>
             <li>Frontend responsive website showcasing the works of an artist.</li>
             <li>React 19 & TypeScript</li>
