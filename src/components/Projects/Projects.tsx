@@ -20,6 +20,7 @@ const Projects = () => {
             <li>Product images stored on Cloudfare</li>
           </ul>
           <a href="https://github.com/RahniDev/artist-ecommerce">GitHub Repo</a>
+          <a href="https://artist-ecommerce.vercel.app">Live Website</a>
         </div>
         <div className={styles.projectCard}>
           <h3>Artist Portfolio</h3>
