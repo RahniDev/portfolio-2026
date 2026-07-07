@@ -11,12 +11,11 @@ const Projects = () => {
           <h3>Artist E-commerce (in progress)</h3>
           <img src={artistEcommerce} width={420} alt="Artist e-commerce site" />
           <ul>
-            <li>Full stack e-commerce website for the works of an artist.</li>
+            <li>Full stack e-commerce website for an artist to sell their paintings.</li>
             <li>React 19, TypeScript, Node, Express, MongoDB</li>
             <li>Multi-language translation</li>
             <li>Braintree payment integration</li>
             <li>Admin dashboard & user dashboard</li>
-
             <li>Product images stored on Cloudfare</li>
           </ul>
           <a href="https://github.com/RahniDev/artist-ecommerce">GitHub Repo</a>

@@ -1,6 +1,6 @@
 import styles from "./hero.module.css";
 import profileImg from '../../assets/rahni.jpg';
-import CV from '../../assets/Rahni-4.pdf'
+import CV from '../../assets/Rahni.docx'
 
 const Hero = () => {
   return (
