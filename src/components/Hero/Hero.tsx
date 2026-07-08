@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className={styles.heroText}>
         <h1>Hi, I'm Rahni</h1>
-        <h2>Full-Stack JavaScript Developer specializing in React.js, Node.js, and modern web applications.</h2>
+        <h2>Full-Stack JavaScript Developer specializing in React.js, Node.js, and secure digital products.</h2>
         <a href={CV} download="" target="_blank">
           CV
         </a>
