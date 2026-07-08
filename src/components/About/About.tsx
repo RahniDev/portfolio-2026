@@ -6,8 +6,9 @@ const About = () => {
       <h2>About Me</h2>
       <div className={styles.aboutContent}>
         <p>
-          Full Stack Web Developer with 1.5 years of professional experience and a strong passion for creating full-stack websites with a trouble-free UX, sharp design and complex functionality as well as writing clean and efficient code.
-          I love to keep up-to-date with the latest updates on technologies and continuously learn about best practices and new technologies.
+          Full Stack Web Developer with 1.5 years of professional experience across three companies in three different countries.
+          I build performant and secure web applications while writing clean and maintainable code.
+          I enjoy keeping up to date with the latest developments in web technologies and software development best practices.
         </p>
       </div>
     </section>
